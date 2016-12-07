@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.google.com/" />
+<title>save file</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">save file</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>https://blackboard.cpp.edu/webapps/portal/execute/tabs/tabAction?tab_tab_group_id=_1_1</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Welcome, Ashwag – Blackboard Learn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=CS 585.01 (F16) Software Verification and Validation</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Announcements – CS 585.01 (F16) Software Verification ...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=span[title=&quot;Course Documents&quot;]</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>Course Documents – CS 585.01 (F16) Software Verification...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=#anonymous_element_11 &gt; a &gt; span</td>
+	<td></td>
+</tr>
+<tr>
+	<td>assertTitle</td>
+	<td>L05 Code Coverage – CS 585.01 (F16) Software ...</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>PDFEmbed</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>id=download</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>
