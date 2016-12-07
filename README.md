@@ -8,7 +8,9 @@ In this project I had to download and use Firefox browser because this too is a 
 
 Selenuim IDE provides tools menu where you easily load or create new test classes. It has menu bar and tool bar that is very easy to use. One of the great feature is recording, we can easily recode a test case from user interaction with the website and the aforementioned tool will automatically insert commands into the test cases based on the action the user did. Another point is verification and asserting, we can check the properties of a web page using assert and verify commands. For example, we can verify a paragraph or a heading using verifyTextPresent command with the text itself as a parameter. There are types of commands in Selenium, Actions, Accessors, and Assertions. The Action Commands are those in which they manipulate the state of the application. The Accessor Commands examine the state of the application and store the results in variables. Finally, Assertions verify that the state of the application conforms to what is expected. 
 We can verify the page elements text, image is it in the page or in specific position in the page using verify and assert. The verify command will verify the condition and if its not match, it will give error message but will continue executing to next commands. while in assert command, if condition does not match then it will stop execution.
- The commands I used in the project is: 
+ 
+ The commands I used in the project is:
+ 
 1-	Open:  This is will open the desired URL
 2-	Type: Typing a text
 3-	Click: perform a click
