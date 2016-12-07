@@ -12,12 +12,21 @@ We can verify the page elements text, image is it in the page or in specific pos
  The commands I used in the project is:
  
 1-	Open:  This is will open the desired URL
+
 2-	Type: Typing a text
+
 3-	Click: perform a click
+
 4-	 ClickAndWait: perform a click and waits for a new page to load 
+
 5-	verifyTitle: verify an expected page title
+
 6-	VerifyTextPresent: verify expected text is somewhere on the page 
-7-	assertTitle: verify an expected page table 
+
+7-	assertTitle: verify an expected page table
+
 8-	selectFrame: this command will perform some action on element inside the iframe of the page
+
 9-	runscript: to run the javascript 
+
 10-	verifyElementPresent : verify the existence of an element in the page. 
